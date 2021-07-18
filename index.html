@@ -8,16 +8,7 @@
     <meta name="description" content="The home of windows 10 mobile.">
     <meta name="author" content="W10M Group">
     <meta name="robots" content="index, follow">
-    <script>
-function getURLParameter(name) {
-  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
-}
-var sidValue = getURLParameter("sid");
-if(sidValue!=null && sidValue.length > 0){
-var url =  "w10mgi::" + sidValue;
-window.open(url, '_blank');
-}
-</script>
+
 <style>
 	/* Colors */
 .loading-flag--wrapper {
@@ -204,7 +195,19 @@ window.open(url, '_blank');
 </div>
         </div>
     </div>
+    <script>
+function getURLParameter(name) {
+  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+}
+var sidValue = getURLParameter("sid");
+if(sidValue!=null && sidValue.length > 0){
+var url =  "w10mgi::" + sidValue;
+window.location.replace(url);
 
+setTimeout(function (){ window.location.replace("https://w10mgroup.github.io"); }, 3500);
+
+}
+</script>
     <div class="page-container">
 
         <!-- BEGIN HEADER -->
