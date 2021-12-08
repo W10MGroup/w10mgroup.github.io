@@ -1,3 +1,3 @@
-type:warn
-message:Regarding to Unigram, it's not working for now, as per the developer a new update will be sent soon
-link:none
+type:success
+message:As per Unigram developer, new update already submitted and it will take up to 72 hour to be available.
+link:https://www.microsoft.com/store/apps/9NSD4T15QLFX
