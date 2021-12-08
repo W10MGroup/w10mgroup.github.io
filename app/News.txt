@@ -1,3 +1,3 @@
 type:normal
-message:As per Unigram developer, new update (21.12) already submitted and it will take up to 72 hour to be available in store.
+message:As per Unigram developer, the issue has been fixed and new update will be available soon.
 link:https://www.microsoft.com/store/apps/9NSD4T15QLFX
