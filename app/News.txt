@@ -1,3 +1,3 @@
 type:success
-message:Good News, Unigram 21.12 (update), available in store.. Click Here.
-link:https://www.microsoft.com/store/apps/9NSD4T15QLFX
+message:
+link:none
